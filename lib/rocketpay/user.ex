@@ -15,6 +15,8 @@ defmodule Rocketpay.User do
     field :password, :string, virtual: true
     field :password_hash, :string
     field :nickname, :string
+
+    timestamps()
   end
 
   def changeset(params) do
@@ -36,5 +38,5 @@ defmodule Rocketpay.User do
 
 
   # Invalid changeset
-  defp put_password_hash(changeset) do: changeset
+  defp put_password_hash(changeset), do: changeset
 end
