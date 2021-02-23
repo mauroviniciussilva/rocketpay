@@ -16,7 +16,7 @@
 This project was made using the follow technologies:
 <ul>
   <li><a href="https://elixir-lang.org/">Elixir</a></li>
-  <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+  <li><a href="https://www.phoenixframework.org/">Phoenix</a></li>
   <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
 </ul>
 
